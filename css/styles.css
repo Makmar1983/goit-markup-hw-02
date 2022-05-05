@@ -1,0 +1,50 @@
+/* цвет основного текста #757575 */
+/* цвет подзаголовков #212121 */
+/* вторичный цвет текста */
+/* акцент #2196F3 */
+/* Заголовок */
+.body{
+    background-color: #fff;
+    color: #757575;
+}
+.ul{
+    list-style: none;
+}
+.list{
+    list-style: none;
+}
+/* site-nav */
+.link-nav{
+color: #212121;
+}
+.link-nav:hover, .link-nav:focus {
+    color: #2196F3;
+}
+.auth-nav{
+
+}
+/* Secion */
+.section{
+    color: #757575;
+}
+.section-title{
+    color:#212121 ;
+
+/* logo */
+.logo{
+width: 145px;
+height: 31px;
+left: 215px;
+top: 24px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+}
+.logo-web{
+    color:#2196F3 ;
+}
+.logo-studio{
+color: #000000;
+}
