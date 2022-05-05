@@ -1,11 +1,13 @@
-/* цвет основного текста #757575 */
-/* цвет подзаголовков #212121 */
-/* вторичный цвет текста */
-/* акцент #2196F3 */
-/* Заголовок */
+
+.root{
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-bg-color: #ffffff;
+}
 .body{
-    background-color: #fff;
-    color: #757575;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
 }
 .ul{
     list-style: none;
@@ -18,10 +20,34 @@
 color: #212121;
 }
 .link-nav:hover, .link-nav:focus {
-    color: #2196F3;
+    color:var(--accent-color);
 }
 .auth-nav{
+color: #212121;
+}
+.auth-nav:hover, .auth-nav:focus{
+    color:var(--accent-color);
+}
+.logo {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+}
+.logo-studio {
+    color: #000000;
+}
+.logo-studio {
+    color: #000000;
+}
 
+.logo-web {
+    color: #2196F3;
 }
 /* Secion */
 .section{
@@ -29,30 +55,4 @@ color: #212121;
 }
 .section-title{
     color:#212121 ;
-
-/* logo */
-
-
-.logo-web{
-    color:#2196F3 ;
-}
-.logo-studio{
-color: #000000;
-}
-.logo{
-width: 145px;
-height: 31px;
-left: 215px;
-top: 24px;
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 31px;
-}
-.logo-studio {
-    color: #000000;
-}
-.logo-web {
-    color: #2196F3;
 }
