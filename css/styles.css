@@ -73,7 +73,7 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 }
-.button:hover{
+.button:hover, .button:focus{
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
